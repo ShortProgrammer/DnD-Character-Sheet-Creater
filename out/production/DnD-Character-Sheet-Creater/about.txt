@@ -1,0 +1,39 @@
+What this program does:
+Spits out a random usable character sheet for dnd 5th edition
+Prints it to a txt file
+
+What's needed for each page (as there are 3 pages):
+1:
+Name:
+Class and Level
+Race
+Background
+Alignment
+Proficiency bonus
+Armor class
+Initiative
+Speed
+HP
+Hit Dice
+Saving throws
+Strength
+Dexterity
+Constitution
+Intelligence
+Wisdom
+Charisma
+Attacks and spells
+Passive Wisdom Save
+Skills
+Other proficiencies and languages
+Equipment
+Features and Traits
+
+2:
+Spellcasting class
+Spellcasting ability
+Spell save dc
+Spell attack bonus
+
+3:
+Figure out later
