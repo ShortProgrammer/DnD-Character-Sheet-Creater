@@ -29,4 +29,36 @@ public class Main6Skills {
 
         return rollTotal;
     }
+
+    public static int abilityModifier(int total){
+        int points = 0;
+        if(total == 1 || total == 0){
+            points = -5;
+        }
+        else if(total == 2 || total == 3){
+            points = -4;
+        }
+        else if(total == 4 || total == 5){
+            points = -3;
+        }
+        else if(total == 6 || total == 7){
+            points = -2;
+        }
+        else if(total == 8 || total == 9){
+            points = -1;
+        }
+        else if(total == 12 || total == 13){
+            points = 1;
+        }
+        else if(total == 14 || total == 15){
+            points = 2;
+        }
+        else if(total == 16 || total == 17){
+            points = 3;
+        }
+        else if(total == 18 || total == 19){
+            points = 4;
+        }
+        return points;
+    }
 }
