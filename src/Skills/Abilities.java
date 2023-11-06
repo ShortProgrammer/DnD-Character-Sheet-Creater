@@ -16,7 +16,7 @@ public class Abilities {
         abilities[3][1]= String.valueOf(Main6Skills.abilityModifier(Integer.parseInt(allSkills[0][1])));
 
         abilities[4][0]= "Deception: ";
-        abilities[4][1]= allSkills[5][1];
+        abilities[4][1]= String.valueOf(Main6Skills.abilityModifier(Integer.parseInt(allSkills[5][1])));
 
         abilities[5][0]= "History: ";
         abilities[5][1]= String.valueOf(Main6Skills.abilityModifier(Integer.parseInt(allSkills[3][1])));
