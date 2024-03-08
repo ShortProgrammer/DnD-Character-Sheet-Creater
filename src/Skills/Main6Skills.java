@@ -9,7 +9,7 @@ public class Main6Skills {
         Random rand = new Random();
 
         for (int i = 0; i < rolls.length; i++) {
-            rolls[i] = rand.nextInt(6);
+            rolls[i] = rand.nextInt(6)+1;
         }
 
         int lowest = rolls[0];

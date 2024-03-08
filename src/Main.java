@@ -1,5 +1,8 @@
+import CharacterInformation.CharacterInfo;
 public class Main {
     public static void main (String [] args){
-        PageOne.completePage();
+        CharacterInfo.getAllInfo();
     }
+
+    //PageOne.completePage();
 }
